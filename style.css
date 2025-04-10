@@ -1,0 +1,208 @@
+.body{
+    font-family: Montserrat;
+
+}
+
+.header {
+   
+    
+}
+.header__logo {
+    color: #111;
+font-size: 18px;
+font-style: italic;
+font-weight: 700;
+line-height: 20px; /* 111.111% */
+letter-spacing: -0.54px;
+text-decoration: none;
+
+}
+
+.header__logo img {
+    width: 24px ;
+    height: 24px ;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+   flex:1 1 auto;
+   justify-content: center;
+}
+
+.container{
+max-width: 1139px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
+.header-container{
+    display: flex;
+    align-items: baseline;
+    justify-content:center;
+}
+
+.header-list {
+}
+.header-list__item {
+}
+.header__social {
+}
+
+
+.social-list {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+
+}
+.social-list__item {
+}
+.main {
+}
+.hero {
+   background-image: url('./SIMPLY CHOCOLATE/chocolate-covered-cocoa-powder1.png');
+   min-height: 500px;
+   outline: 1px solid red;
+   background-repeat: no-repeat;
+   block-size: cover;
+   background-position: 50% 50%;
+   background-size: cover;
+
+}
+.hero_title {
+color: #FFF;
+font-size: 28px;
+font-weight: 500;
+line-height: 34px; /* 121.429% */
+letter-spacing: -0.84px;
+padding: 381px;
+
+justify-content: start;
+margin; top;
+
+    
+}
+.hero__button {
+    color: #FFF;
+font-size: 14px;
+font-weight: 600;
+
+
+  
+}
+.hero-button-buy {
+}
+.hero-button-made {
+}
+.advantages {
+}
+.advantages__list {
+}
+.advantages__item {
+}
+.advantages-item {
+}
+.advantages-item__title {
+}
+.advantages-item_text {
+}
+.products {
+}
+.prodacts {
+}
+.prodacts__text {
+}
+.products__list {
+}
+.products_list {
+}
+.products-list__item {
+}
+.products-list_title {
+}
+.descriptions {
+}
+.description_title {
+}
+.title {
+}
+.description_list {
+}
+.description_list__item {
+}
+.description-list {
+}
+.description-list__text {
+}
+.description-list_text {
+}
+.choclate {
+}
+.choclate__list {
+}
+.choclate-list {
+}
+.choclate-list__item {
+}
+.choclate-list_title {
+}
+.choclate-list__text {
+}
+.choclate-list__button {
+}
+.table-setting {
+}
+.table-setting_list {
+}
+.table-setting__tem {
+}
+.table-setting__item {
+}
+
+.review {
+}
+.review__title {
+}
+.review__list {
+}
+.review-list {
+}
+.review-list__names {
+}
+.rewiev-list__text {
+}
+.subcribe {
+}
+.subcribe__title {
+}
+.subcribe__text {
+}
+.subcribe__button {
+}
+.footer {
+}
+.footer__title {
+}
+.footer__contacts {
+}
+.footer-contacts {
+}
+.footer-contacts__title {
+}
+.footer-contacts__item {
+}
+.footer__scroll-list {
+}
+.footer-scroll-list {
+}
+.footer-scroll-list__item {
+}
+.footer_list {
+}
+.footer-list {
+}
+.footer-list_item {
+}
