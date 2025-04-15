@@ -15,6 +15,7 @@ font-weight: 700;
 line-height: 20px; /* 111.111% */
 letter-spacing: -0.54px;
 text-decoration: none;
+outline: none
 
 }
 
@@ -28,6 +29,8 @@ text-decoration: none;
     gap: 24px;
    flex:1 1 auto;
    justify-content: center;
+
+   
 }
 
 .container{
@@ -42,6 +45,7 @@ margin: 0 auto;
     display: flex;
     align-items: baseline;
     justify-content:center;
+    
 }
 
 .header-list {
@@ -64,13 +68,20 @@ margin: 0 auto;
 }
 .hero {
    background-image: url('./SIMPLY CHOCOLATE/chocolate-covered-cocoa-powder1.png');
-   min-height: 500px;
    outline: 1px solid red;
    background-repeat: no-repeat;
    block-size: cover;
    background-position: 50% 50%;
    background-size: cover;
+   height: 80vh;
 
+}
+
+.hero__wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
 }
 .hero_title {
 color: #FFF;
@@ -78,48 +89,142 @@ font-size: 28px;
 font-weight: 500;
 line-height: 34px; /* 121.429% */
 letter-spacing: -0.84px;
-padding: 381px;
 
-justify-content: start;
-margin; top;
 
-    
 }
+
+.button-group{
+    display: flex;
+    gap: 14px;
+    padding: 40px;
+    
+
+}
+
+
 .hero__button {
-    color: #FFF;
+color: #FFF;
 font-size: 14px;
 font-weight: 600;
+align-self: flex-start;
 
 
-  
 }
 .hero-button-buy {
+display: flex;
+padding: 14px 40px;
+gap: 14px;
+border-radius: 100px;
+border: none;
+background: #FD9222;
+
 }
 .hero-button-made {
+    display: flex;
+    width: 183px;
+    height: 45px;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+border-radius: 100px;
+border: 1px solid #FFF;
+
+
 }
 .advantages {
+    margin-top: 72px;
+    background: #1E1823;
+    padding: 50px;
+    
+
 }
 .advantages__list {
+    list-style: none;
+    display: flex;
+ gap: 70px;
+   
+      
 }
+    
+
 .advantages__item {
+    
 }
-.advantages-item {
+.logo-group{
+    
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .advantages-item__title {
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+
 }
 .advantages-item_text {
+    color: rgba(255, 255, 255, 0.70);
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.28px;
+
 }
 .products {
+text-align: center;
+
 }
-.prodacts {
+.prodacts__title {
+color: #111;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px; /* 116.667% */
+letter-spacing: -0.72px;
+text-transform: uppercase;
+   
 }
+
+.prodacts__title span {
+color: #FD9222;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+
 .prodacts__text {
+color: #111;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+
+
 }
 .products__list {
 }
 .products_list {
+    display: flex;
+   list-style: none;
+   gap: 19px;
+  
 }
 .products-list__item {
+}
+.products-list__item img {
+    padding: 28px 36px 28px 28px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 36px;
+border-radius: 15px;
+
 }
 .products-list_title {
 }
